@@ -1,0 +1,6 @@
+itemGroup.deadend.DE_Weapon=Dead End Weapons
+
+item.deadend.primogem.name=Primogem
+#item.deadend.primogem.desc=a special ore.
+
+tile.deadend.primogem_ore.name=Primogem Ore
