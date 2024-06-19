@@ -14,8 +14,8 @@ public class BlockBase extends Block{
 		setUnlocalizedName(DeadEnd.MOD_ID+"."+name);
 		setCreativeTab(DeadEnd.WEAPON_TAB);
 		
-		ModBlocks.MOD_BLOCKS.add(this);
-		ModItems.MOD_ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+		ModBlocks.MOD_BLOCKS.put(name,this);
+		ModItems.MOD_ITEMS.put(name,new ItemBlock(this).setRegistryName(this.getRegistryName()));
 	}
 
 }

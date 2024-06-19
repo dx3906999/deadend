@@ -11,7 +11,7 @@ public class ItemBase extends Item {
 		setCreativeTab(tab);
 		setUnlocalizedName(DeadEnd.MOD_ID+"."+name);
 		
-		ModItems.MOD_ITEMS.add(this);
+		ModItems.MOD_ITEMS.put(name,this);
 	}
 	
 }

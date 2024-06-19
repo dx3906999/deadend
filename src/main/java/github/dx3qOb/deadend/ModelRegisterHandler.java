@@ -18,7 +18,7 @@ public class ModelRegisterHandler {
 		//ModelLoader.setCustomModelResourceLocation(ModItems.PRIMOGEM_ITEM, 0, new ModelResourceLocation(ModItems.PRIMOGEM_ITEM.getRegistryName(), "inventory"));
 		//for MOD_ITEMS
 		
-		for (Item modItem : ModItems.MOD_ITEMS) {
+		for (Item modItem : ModItems.MOD_ITEMS.values()) {
 			ModelLoader.setCustomModelResourceLocation(modItem, 0, new ModelResourceLocation(modItem.getRegistryName(),"inventory"));
 		}
 		

@@ -10,7 +10,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ItemTab extends CreativeTabs{
 	
 	public ItemTab() {
-		super(DeadEnd.MOD_ID);
+		super(DeadEnd.MOD_ID+"."+"DE_Item");
 	}
 
 	@SideOnly(Side.CLIENT)

@@ -14,14 +14,14 @@ public class RegisterHandler {
 	
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event) {
-		for (Item modItem : ModItems.MOD_ITEMS) {
+		for (Item modItem : ModItems.MOD_ITEMS.values()) {
 			event.getRegistry().register(modItem);
 		}
 	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(Register<Block> event) {
-		for (Block modBlock : ModBlocks.MOD_BLOCKS) {
+		for (Block modBlock : ModBlocks.MOD_BLOCKS.values()) {
 			event.getRegistry().register(modBlock);
 		}
 	}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "deadend:blocks/primogem_block"
+    }
+}
