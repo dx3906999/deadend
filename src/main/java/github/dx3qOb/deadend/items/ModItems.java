@@ -14,4 +14,6 @@ public class ModItems {
 	
 	public static final Item PRIMOGEM_ITEM=new ItemBase("primogem", DeadEnd.WEAPON_TAB);
 	
+	public static final Item PRIMOGEM_WAND_ITEM=new ItemBase("primogem_wand", DeadEnd.WEAPON_TAB);
+	
 }

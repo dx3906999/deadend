@@ -1,7 +1,9 @@
 itemGroup.deadend.DE_Weapon=Dead End Weapons
 
 item.deadend.primogem.name=Primogem
-#item.deadend.primogem.desc=a special ore.
+item.deadend.primogem.desc=a special stone.
+item.deadend.primogem_wand.name=Primogem Wand
+
 
 tile.deadend.primogem_ore.name=Primogem Ore
 tile.deadend.primogem_block.name=Primogem Block
